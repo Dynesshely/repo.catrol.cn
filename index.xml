@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repo>
+    <cat name="catrol" canuse="partly">catrol</cat>
+    <cat name="npm" canuse="false">npm</cat>
+    <cat name="nuget" canuse="false">nuget</cat>
+    <cat name="pip" canuse="false">pip</cat>
+</repo>

@@ -1,300 +1,294 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <apps>
-    <app name="Hub" ver="v1.0.0" platform="windows" minver="10" state="still-updating" icon="null">
-        <property>
-            <architect framework=".NET WPF" language="C#"></architect>
-            <name>
-                <zh-cn>常青园中心</zh-cn>
-            </name>
-        </property>
+	<app name="Hub" ver="v1.0.0" platform="windows" minver="10" state="still-updating" icon="null">
+		<property>
+			<architect framework=".NET WPF" language="C#"></architect>
+			<name>
+				<zh-cn>常青园中心</zh-cn>
+			</name>
+		</property>
 		<versions>
-		    <ver ver="v1.0.0" type="release" build="00037">
-		        <path>
-		            <baiducloud canuse="false">
-		                <url></url>
-		                <pwd></pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
+			<ver ver="v1.0.0" type="release" build="00037">
+				<path>
+					<baiducloud canuse="false">
+						<url></url>
+						<pwd></pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
 		</versions>
 	</app>
 	<app name="KitX" ver="v2.0.5" platform="windows" minver="7" state="stop-updating" architecture="x86" icon="http://source.catrol.cn/icons/works/KitX.png">
 		<property>
 			<architect framework=".NET WPF" language="C#"></architect>
-            <name>
-                <zh-cn>KitX</zh-cn>
-                <en-us>KitX</en-us>
-                <zh-cnt>KitX</zh-cnt>
-                <ja-jp>KitX</ja-jp>
-            </name>
+			<name>
+				<zh-cn>KitX</zh-cn>
+				<en-us>KitX</en-us>
+				<zh-cnt>KitX</zh-cnt>
+				<ja-jp>KitX</ja-jp>
+			</name>
 		</property>
 		<versions>
-		    <ver ver="Beta 10016" type="beta" build="10016">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1goxGJq5bL2queuR1S6Ga6A?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="Beta 10213" type="beta" build="10213">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/18eXvr0Z_0rbtvHR9N2irjw?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="Beta 10235" type="beta" build="10235">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1wtUQimNEJkaIgcschb-PqQ?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.0.0" type="release" build="10331">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1DfI_-1LYtg3VN-k8BzShIg?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.0.4" type="release" build="10335">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1LVZ9eJqVJpiaJv1uU4fN2w?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.0.5" type="release" build="10410">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1O7jfUggm1C6l2n8jnkhvLw?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.1.0" type="release" build="11433">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1eJkRu5Js_ZrqhOyWorXPuQ?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.1.1" type="release" build="11464">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1j3wDWLlvGmaYwWVyCO7JQQ?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.1.2" type="release" build="11512">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1BYlrRzD3yfzaHOmT46K0yg?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.1.4" type="release" build="11603">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1DTGxyhFikbVIqVZ23rP1nA?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.1.5" type="release" build="11712">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/17kBJWg_Qs4dH6uKU9GunNQ?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.0" type="release" build="11808">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1mOYCo_uqncZx5wIW7bwWAQ?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.1" type="release" build="12404">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1B1Z7iMcGM7M_TxRx_wMPfA?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.2" type="release" build="12778">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1F_wrbHBq9EgSyJHpA8Zoqw?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.4" type="preview" build="12910">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1izsbqMyLOvnuIxkGPP0IrA?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.4" type="release" build="13000">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1zOINTpp7nHFeoB5nchx2Sw?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.5" type="release" build="13762">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1IEdcUyCCoYxGhLQ3qQav1w?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.6" type="release" build="14411">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1my1iIkDYuI3o1EP4Kmy1Uw?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.7" type="release" build="14731">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1nF7BKl2klJpjzIsR4vsJmw?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v1.2.7" type="correct" build="15315">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/17mFsl7muVun9Dix990iDHw?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v2.0.0" type="release" build="15918">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1t2LjfFhvwt7v1pYSVFIk6w?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v2.0.1" type="release" build="16209">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1BlpXP_oZFO79_A6MyMGdEg?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v2.0.2" type="release" build="16777">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1R11LhDHMs_kufdQMevRsrg?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v2.0.3" type="release" build="17160">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1xdUa7AIZ1aO5PPONqAsFNA?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v2.0.4" type="release" build="18716">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1FIrdIJ8cletHLZIcIRd9xg?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
-		    <ver ver="v2.0.5" type="preview" build="19091">
-		        <path>
-		            <baiducloud canuse="true">
-		                <url>https://pan.baidu.com/s/1dGb2GtkaFEIwgBts7sEgmg?pwd=1234</url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
+			<ver ver="Beta 10016" type="beta" build="10016">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1goxGJq5bL2queuR1S6Ga6A?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="Beta 10213" type="beta" build="10213">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/18eXvr0Z_0rbtvHR9N2irjw?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="Beta 10235" type="beta" build="10235">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1wtUQimNEJkaIgcschb-PqQ?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.0.0" type="release" build="10331">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1DfI_-1LYtg3VN-k8BzShIg?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.0.4" type="release" build="10335">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1LVZ9eJqVJpiaJv1uU4fN2w?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.0.5" type="release" build="10410">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1O7jfUggm1C6l2n8jnkhvLw?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.1.0" type="release" build="11433">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1eJkRu5Js_ZrqhOyWorXPuQ?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.1.1" type="release" build="11464">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1j3wDWLlvGmaYwWVyCO7JQQ?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.1.2" type="release" build="11512">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1BYlrRzD3yfzaHOmT46K0yg?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.1.4" type="release" build="11603">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1DTGxyhFikbVIqVZ23rP1nA?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.1.5" type="release" build="11712">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/17kBJWg_Qs4dH6uKU9GunNQ?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.0" type="release" build="11808">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1mOYCo_uqncZx5wIW7bwWAQ?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.1" type="release" build="12404">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1B1Z7iMcGM7M_TxRx_wMPfA?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.2" type="release" build="12778">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1F_wrbHBq9EgSyJHpA8Zoqw?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.4" type="preview" build="12910">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1izsbqMyLOvnuIxkGPP0IrA?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.4" type="release" build="13000">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1zOINTpp7nHFeoB5nchx2Sw?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.5" type="release" build="13762">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1IEdcUyCCoYxGhLQ3qQav1w?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.6" type="release" build="14411">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1my1iIkDYuI3o1EP4Kmy1Uw?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.7" type="release" build="14731">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1nF7BKl2klJpjzIsR4vsJmw?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v1.2.7" type="correct" build="15315">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/17mFsl7muVun9Dix990iDHw?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v2.0.0" type="release" build="15918">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1t2LjfFhvwt7v1pYSVFIk6w?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v2.0.1" type="release" build="16209">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1BlpXP_oZFO79_A6MyMGdEg?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v2.0.2" type="release" build="16777">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1R11LhDHMs_kufdQMevRsrg?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v2.0.3" type="release" build="17160">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1xdUa7AIZ1aO5PPONqAsFNA?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v2.0.4" type="release" build="18716">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1FIrdIJ8cletHLZIcIRd9xg?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
+			<ver ver="v2.0.5" type="preview" build="19091">
+				<path>
+					<baiducloud canuse="true">
+						<url>https://pan.baidu.com/s/1dGb2GtkaFEIwgBts7sEgmg?pwd=1234</url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
 		</versions>
 	</app>
 	<app name="KitX 3" ver="v3.0.0" platform="windows" minver="10" state="still-developing" icon="http://source.catrol.cn/icons/works/KitX.png">
-        <property>
-            <architect framework=".NET 6 WPF" language="C#"></architect>
-            <name>
-                <zh-cn>KitX</zh-cn>
-                <en-us>KitX</en-us>
-                <zh-cnt>KitX</zh-cnt>
-                <ja-jp>KitX</ja-jp>
-            </name>
-        </property>
+		<property>
+			<architect framework=".NET 6 WPF" language="C#"></architect>
+			<name>
+				<zh-cn>KitX</zh-cn>
+				<en-us>KitX</en-us>
+				<zh-cnt>KitX</zh-cnt>
+				<ja-jp>KitX</ja-jp>
+			</name>
+		</property>
 		<versions>
-		    <ver ver="Beta 20221" type="beta" build="20221">
-		        <path>
-		            <baiducloud canuse="false">
-		                <url></url>
-		                <pwd>1234</pwd>
-		            </baiducloud>
-		            <direct canuse="false"></direct>
-		        </path>
-		    </ver>
+			<ver ver="Beta 20221" type="beta" build="20221">
+				<path>
+					<baiducloud canuse="false">
+						<url></url>
+						<pwd>1234</pwd>
+					</baiducloud>
+					<direct canuse="false"></direct>
+				</path>
+			</ver>
 		</versions>
 	</app>
-	<app name="DSARM" ver="null" platform="windows,linux" minver="7,deb" state="planning" icon="null">
-
-	</app>
-	<app name="Herring" ver="null" platform="windows,linux,mac" minver="10,deb,10.x" state="planning" icon="null">
-
-	</app>
-	<app name="Hive" ver="null" platform="windows,linux,mac" minver="10,deb,10.x" state="planning" icon="null">
-
-	</app>
+	<app name="DSARM" ver="null" platform="windows,linux" minver="7,deb" state="planning" icon="null"></app>
+	<app name="Herring" ver="null" platform="windows,linux,mac" minver="10,deb,10.x" state="planning" icon="null"></app>
+	<app name="Hive" ver="null" platform="windows,linux,mac" minver="10,deb,10.x" state="planning" icon="null"></app>
 </apps>

@@ -4,7 +4,7 @@
         <property>
             <architect framework=".NET WPF" language="C#"></architect>
             <name>
-                <zh-cn>常青园中心</zh-cn>
+                <zh-cn>常青园托管集成</zh-cn>
             </name>
         </property>
         <versions>
